@@ -26,7 +26,7 @@ $ sudo pip install ansible
 5. Give project ID, .JSON file_path, zone, instance name and machine type in [vars/main.yml](vars/main.yml) file.
 6. Run the Playbook 
 ```
-$ ansible-playbook playbook/gce.yml
+$ ansible-playbook gce.yml
 ```
 7. Your Google Compute Engine Instance is now created.
 8. Browse to instance public ip.
