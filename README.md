@@ -23,7 +23,7 @@ $ sudo pip install requests google-auth
 $ sudo pip install ansible 
 ```
 4. Download [.JSON credentials file](https://support.google.com/cloud/answer/6158849?hl=en&ref_topic=6262490#serviceaccounts) of created service account.
-5. Edit project ID, .JSON file path in vars/vars.yml file.
+5. Edit project ID, .JSON file path in vars/main.yml file.
 6. Run the Playbook 
 ```
 $ ansible-playbook playbook/gce.yml
