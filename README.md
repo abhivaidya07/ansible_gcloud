@@ -23,11 +23,11 @@ $ sudo pip install requests google-auth
 $ sudo pip install ansible 
 ```
 4. Download [.JSON credentials file](https://support.google.com/cloud/answer/6158849?hl=en&ref_topic=6262490#serviceaccounts) of created service account.
-5. Edit instance name in [vars/main.yml](vars/main.yml), by default it is centos-7.
-6. Edit machine-type in [vars/main.yml](vars/main.yml), by default it is e2-micro.
+5. Edit instance_name in [vars/main.yml](vars/main.yml), by default it is centos-7.
+6. Edit machine_type in [vars/main.yml](vars/main.yml), by default it is e2-micro.
 7. Edit zone in [vars/main.yml](vars/main.yml), by default it is us-central1-a.
-8. Edit source-image in [vars/main.yml](vars/main.yml), by default it is CENTOS-7.
-5. Give project ID, .JSON file_path in [vars/main.yml](vars/main.yml) file. 
+8. Edit source_image in [vars/main.yml](vars/main.yml), by default it is CENTOS-7.
+5. Give project id, .JSON file_path in [vars/main.yml](vars/main.yml) file. 
 7. Run the Playbook 
 ```
 $ ansible-playbook gce.yml
