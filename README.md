@@ -6,7 +6,7 @@ The goal of this repository is to create a instance on GCP and deploy apache ser
 
 ## Prerequisites
 1. Create [Project](https://console.cloud.google.com/projectselector/compute/instances) on Google Cloud Platform. 
-2. Create a [Serviceaccount](https://console.cloud.google.com/iam-admin/serviceaccounts) with editor permission. (Refer [Creating-service-account](https://cloud.google.com/compute/docs/access/create-enable-service-accounts-for-instances))
+2. Create a [Serviceaccount](https://console.cloud.google.com/iam-admin/serviceaccounts) with editor access. (Refer [Creating-service-account](https://cloud.google.com/compute/docs/access/create-enable-service-accounts-for-instances))
 
 
 ## Getting Started !!
