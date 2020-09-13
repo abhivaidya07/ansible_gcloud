@@ -33,4 +33,4 @@ $ sudo pip install ansible
 $ ansible-playbook gce.yml
 ```
 8. Your Google Compute Engine Instance is now created, with Apache Server installed in it.
-9. Browse to instance public ip.
+9. Browse to instance public ip address.
