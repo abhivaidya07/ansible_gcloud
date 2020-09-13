@@ -23,10 +23,10 @@ $ sudo pip install requests google-auth
 $ sudo pip install ansible 
 ```
 4. Download [.JSON credentials file](https://support.google.com/cloud/answer/6158849?hl=en&ref_topic=6262490#serviceaccounts) of created service account.
-5. Edit your Project ID, .JSON file path in vars/vars.yml file.
+5. Edit project ID, .JSON file path in vars/vars.yml file.
 6. Run the Playbook 
 ```
-$ ansible-playbook gce.yml
+$ ansible-playbook playbook/gce.yml
 ```
 7. Your Google Compute Engine Instance is now created.
-8. Browse to isntance public ip.
+8. Browse to instance public ip.
