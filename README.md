@@ -1,4 +1,4 @@
-# Automate Instance and Apache Server on GCP using Ansible
+# Automate Apache Server on GCP using Ansible
 
 ## Description
 The goal of this repository is to create a instance on GCP and deploy apache server on that instance using ansible playbook.  
