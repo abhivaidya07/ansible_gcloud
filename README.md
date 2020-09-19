@@ -10,17 +10,17 @@ The goal of this repository is to create a instance on GCP and deploy apache ser
 
 
 ## Getting Started !!
-1. Install python version >= 2.6
+1. Install python version > 3.0
 ```
-$ sudo yum install python-pip
+$ sudo yum install python3-pip
 ```
 2. The GCP modules require both the requests and the google-auth libraries to be installed.
 ```
-$ sudo pip install requests google-auth
+$ sudo pip3 install requests google-auth
 ```
 3. Install Ansible
 ```
-$ sudo pip install ansible 
+$ sudo pip3 install ansible 
 ```
 4. Download [.JSON credentials file](https://support.google.com/cloud/answer/6158849?hl=en&ref_topic=6262490#serviceaccounts) of created service account.
 5. Edit instance_name in [vars/main.yml](vars/main.yml), by default it is centos-7.
